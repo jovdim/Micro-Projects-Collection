@@ -1,0 +1,120 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Arial', sans-serif;
+    overflow: hidden;
+    transition: background 0.5s;
+}
+
+body.dark-theme {
+    background: linear-gradient(135deg, #1e1e30, #2b2b45);
+    color: #fff;
+}
+
+/* Background Decorations */
+.background-decorations::before, .background-decorations::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    opacity: 0.1;
+    animation: move 20s ease-in-out infinite alternate;
+}
+
+.background-decorations::before {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, rgba(0, 229, 255, 0.8), rgba(255, 79, 129, 0.8));
+    top: -100px;
+    left: -150px;
+    animation-delay: 0s;
+}
+
+.background-decorations::after {
+    width: 400px;
+    height: 400px;
+    background: linear-gradient(45deg, rgba(255, 79, 129, 0.7), rgba(0, 229, 255, 0.7));
+    bottom: -150px;
+    right: -100px;
+    animation-delay: 3s;
+}
+
+/* Title Styling */
+.clock-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #ff4f81;
+    text-shadow: 0 0 12px rgba(255, 79, 129, 0.6), 0 0 20px rgba(255, 79, 129, 0.4);
+    margin-bottom: 30px;
+    animation: glow 2s ease-in-out infinite alternate;
+    position: relative;
+    z-index: 1;
+}
+
+/* Clock Container */
+.clock-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    transition: all 0.5s ease;
+}
+
+.clock {
+    font-size: 3.5rem;
+    font-weight: 400;
+    color: #00e5ff;
+    text-shadow: 0 0 10px rgba(0, 229, 255, 0.6);
+    display: flex; /* Changed for better layout */
+    align-items: baseline; /* Align AM/PM correctly */
+}
+
+/* AM/PM Styling */
+#ampm {
+    font-size: 1.2rem;
+    color: #ff4f81;
+    margin-left: 12px;
+    text-shadow: 0 0 6px rgba(255, 79, 129, 0.5);
+    opacity: 0.8;
+}
+
+/* Date Styling */
+.date {
+    font-size: 1rem;
+    color: #ffffffaa;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.2);
+    transition: color 0.3s ease;
+}
+
+/* Animations */
+@keyframes glow {
+    from { text-shadow: 0 0 12px rgba(255, 79, 129, 0.6), 0 0 20px rgba(255, 79, 129, 0.4); }
+    to { text-shadow: 0 0 20px rgba(255, 79, 129, 0.9), 0 0 30px rgba(255, 79, 129, 0.7); }
+}
+
+.animate {
+    animation: pulse 0.3s ease-in-out; /* Adjusted duration for smoother effect */
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); } /* Slightly increased scaling for better effect */
+    100% { transform: scale(1); }
+}
+    
