@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+</head>
+<body>
+    <div id="calc">
+        <div id="content">
+            <div id="output">
+                <input type="text" id='res' readonly>
+            </div>
+            <div class="btn">
+                <button class="function" onclick="clearDisplay()">C</button>
+                <button class="function" onclick="backspace()">←</button>
+                <button onclick="addToDisplay('%')">%</button>
+                <button onclick="addToDisplay('/')">÷</button>
+                
+                <button onclick="addToDisplay('7')">7</button>
+                <button onclick="addToDisplay('8')">8</button>
+                <button onclick="addToDisplay('9')">9</button>
+                <button onclick="addToDisplay('*')">×</button>
+                
+                <button onclick="addToDisplay('4')">4</button>
+                <button onclick="addToDisplay('5')">5</button>
+                <button onclick="addToDisplay('6')">6</button>
+                <button onclick="addToDisplay('-')">-</button>
+                
+                <button onclick="addToDisplay('1')">1</button>
+                <button onclick="addToDisplay('2')">2</button>
+                <button onclick="addToDisplay('3')">3</button>
+                <button onclick="addToDisplay('+')">+</button>
+                
+                <button onclick="addToDisplay('00')">00</button>
+                <button onclick="addToDisplay('0')">0</button>
+                <button onclick="addToDisplay('.')">.</button>
+                <button class="equals" onclick="calculateResult()">=</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
