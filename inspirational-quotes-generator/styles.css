@@ -1,0 +1,153 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8fafc;
+  transition: background-color 0.4s;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 24px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #f8fafc, #e0e7ff);
+  transition: background 0.4s, color 0.4s;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.6em;
+  color: #333;
+}
+
+#themeToggle {
+  font-size: 1.2em;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+#quoteBox {
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 1.25em;
+  line-height: 1.6;
+  color: #444;
+  animation: fadeIn 0.8s ease;
+  opacity: 1;
+}
+
+.fade-animation {
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+#quoteText {
+  font-style: italic;
+  font-size: 1.3em;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+#quoteAuthor {
+  font-weight: bold;
+  color: #666;
+}
+
+.controls button {
+  margin: 5px 10px;
+  padding: 8px 15px;
+  font-size: 0.9em;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #007aff;
+  transition: background-color 0.3s;
+}
+
+.controls button:hover {
+  background-color: #005bb5;
+}
+
+/* Button Feedback for Copy */
+.controls #copyQuote.copied {
+  background-color: #28a745;
+  color: #fff;
+}
+
+#favoritesList {
+  margin-top: 30px;
+  text-align: left;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+#favoritesList h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#favorites li {
+  list-style: none;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.2s;
+}
+
+#favorites li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f4f8;
+}
+
+.dark-mode .container {
+  background: linear-gradient(135deg, #2e2e2e, #1e1e1e);
+}
+
+.dark-mode #quoteText {
+  color: #eaeaea;
+}
+
+.dark-mode #quoteAuthor {
+  color: #bbbbbb;
+}
+
+.dark-mode button {
+  background-color: #555;
+}
+
+.dark-mode #favoritesList h2,
+.dark-mode #favorites li {
+  color: #dddddd;
+}

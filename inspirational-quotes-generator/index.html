@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pro Quote Generator</title>
+  <link rel="stylesheet" href="styles.css">
+       <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim -->
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Daily Inspiration</h1>
+      <button id="themeToggle">🌙</button>
+    </header>
+    
+    <!-- Quote Display Section -->
+    <main>
+      <div id="quoteBox">
+        <p id="quoteText">Loading...</p>
+        <p id="quoteAuthor"></p>
+      </div>
+      
+      <!-- Control Buttons -->
+      <div class="controls">
+        <button id="newQuote">New Quote</button>
+        <button id="speakQuote">🎙️ Listen</button>
+        <button id="copyQuote">📋 Copy</button>
+        <button id="tweetQuote">🐦 Tweet</button>
+        <button id="favoriteQuote">❤️ Favorite</button>
+      </div>
+    </main>
+
+    <!-- Favorite Quotes Section -->
+    <aside id="favoritesList">
+      <h2>Favorites</h2>
+      <ul id="favorites"></ul>
+    </aside>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
