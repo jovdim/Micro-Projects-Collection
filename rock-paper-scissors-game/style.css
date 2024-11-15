@@ -1,0 +1,300 @@
+body {
+  margin-top: 50px;
+  font-family: Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  background-color: #FEF9F2; 
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #d1d5db; 
+  border-top: 0;
+  max-width: 600px;
+  width: 600px;
+  height: 500px;
+  border-radius: 10px; 
+  background-color: #ffffff; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  background-color: #4a90e2; 
+  margin: 0;
+  color: white;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 4px; 
+}
+
+.status {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 50px;
+  color: #4b5563; 
+}
+
+.img-quality {
+  width: 200px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(74, 144, 226, 0.1);
+  border: 1px solid #4a90e2; 
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  border-radius: 8px; 
+}
+
+.child-descriptionOne {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100px;
+  color: #333; 
+}
+.child-descriptionTwo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.js-stat {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.simple-text {
+  text-align: center;
+  background-color: rgba(206, 250, 197, 0.7); 
+  padding: 8px;
+  border-radius: 8px;
+  width: 80%;
+  color: #333; 
+}
+
+.main-btn {
+  width: 100px;
+  padding: 14px 6px;
+  background-color: #5edb8e; 
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+.main-btn:hover {
+  background-color: #4ec57c; 
+}
+
+.main-btn:active {
+  transform: scale(0.95); 
+}
+
+.main-btn-div {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.js-del-btn,
+.js-auto-play {
+  padding: 12px 6px;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  background-color: #f5a623; 
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.js-del-btn:hover {
+  background-color: #f39c12; 
+}
+
+.js-auto-play:hover {
+  background-color: #f39c12; 
+}
+
+.css-result {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 6px;
+  color: #333; 
+}
+
+span {
+  font-weight: normal;
+  font-size: 16px;
+  margin: 0px 6px;
+  color: #555; 
+}
+
+/* Shake animation */
+@keyframes shake {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  75% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.shake {
+  animation: shake 1.5s ease-in-out 3; /* Adjust duration and iteration as needed */
+}
+
+.disable-btn-main button {
+  opacity: 0.7;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.del-btn {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.hide-two-buttons {
+  opacity: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .main {
+    width: 362px;
+    height: 100vh;
+    border: 1px solid #d1d5db; 
+  }
+  .js-stat {
+    width: 362px;
+    justify-content: space-around;
+  }
+  .img-quality {
+    width: 140px;
+  }
+  .status {
+    width: 340px;
+    margin: 0;
+    margin-top: 12px;
+  }
+
+  .css-result {
+    margin-top: 12px;
+  }
+
+  .js-del-btn,
+  .js-auto-play {
+    padding: 10px 4px;
+    text-align: center;
+    margin-top: 4px;
+  }
+  
+  .child-descriptionTwo {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .main-btn-div {
+    width: 370px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .js-scoring {
+    margin-right: 18px;
+  }
+  
+  .description {
+    justify-content: space-evenly;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .main {
+    width: 350px;
+    height: 98vh;
+    border: 1px solid #d1d5db; 
+  }
+  .js-stat {
+    justify-content: space-around;
+  }
+  
+  .img-quality {
+    width: 130px;
+  }
+  
+  .status {
+    width: 280px;
+    margin: 0;
+    margin-top: 12px;
+  }
+
+  .main-btn {
+    padding: 6px 2px;
+    margin: 0 2px;
+  }
+  
+  .two-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .js-del-btn,
+  .js-auto-play {
+    padding: 6px 2px;
+    text-align: center;
+    margin-top: 4px;
+  }
+  
+  .child-descriptionTwo {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .main-btn-div {
+    width: 330px;
+  }
+  
+  .js-scoring {
+    margin-right: 18px;
+  }
+  
+  .description {
+    justify-content: space-around;
+  }
+}

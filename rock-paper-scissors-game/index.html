@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+  </head>
+  <body>
+    <div class="js-music-shaking"></div>
+    <div class="js-music-ding"></div>
+    <div class="main">
+      <h2>Rock Paper Scissors Game</h2>
+      <div class="js-stat">
+        <div class="status">
+          <div class="player-stats">
+            <p class="simple-text">You</p>
+            <!-- Player choice image -->
+            <div class="js-stats-player"></div>
+          </div>
+          <div class="computer-stats">
+            <p class="simple-text">Computer</p>
+            <!-- Computer choice image -->
+            <div class="js-stats-com"></div>
+          </div>
+        </div>
+
+        <div class="main-btn-div">
+          <button class="main-btn js-rock-btn">Rock</button>
+          <button class="main-btn js-paper-btn">Paper</button>
+          <button class="main-btn js-scissors-btn">Scissors</button>
+        </div>
+
+        <div class="description">
+          <div class="child-descriptionOne">
+            <p class="js-result css-result"></p>
+            <p class="js-result-status css-result"></p>
+          </div>
+
+          <div class="child-descriptionTwo">
+            <p class="js-scoring"></p>
+            <div class="two-buttons hide-two-buttons">
+              <button class="js-del-btn">Reset Score</button>
+              <button class="js-auto-play">Auto Play</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
