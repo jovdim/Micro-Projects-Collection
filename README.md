@@ -13,6 +13,7 @@ Feel free to explore, adapt, and contribute to any of these projects!
 | 03   | [Inspirational Quote Generator](https://github.com/jovdim/Micro-Projects-Collection/tree/main/inspirational-quotes-generator)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/b280d8913d13e886f3089426177907bdf02838a9/inspirational-quotes-generator/preview-image.png) |
 | 04   | [Calculator](https://github.com/jovdim/Micro-Projects-Collection/tree/main/calculator)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/3bb05d405dcfa8e08a1bd4692d6b8c24b9273fb1/calculator/preview-image.png) |
 | 05   | [Stopwatch](https://github.com/jovdim/Micro-Projects-Collection/tree/main/stopwatch)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/dfaf078687f4bc314ce0fef478ce948045a79d62/stopwatch/preview-image.png) |
+| 06   | [Rock Paper Scissors Game](https://github.com/jovdim/Micro-Projects-Collection/tree/2e595a1623f6c0144a6f43697b379e1a532f4df2/rock-paper-scissors-game)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/2e595a1623f6c0144a6f43697b379e1a532f4df2/rock-paper-scissors-game/preview-image.png) |
 
 ---
 We welcome contributions to the **Micro Projects** collection! If you'd like to contribute, please check out our [contributing guidelines](https://github.com/jovdim/Micro-Projects-Collection/blob/main/CONTRIBUTING.md) to get started.
