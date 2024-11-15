@@ -53,9 +53,6 @@ body {
 .result:hover {
   background-color: aqua;
 }
-.result {
-  font-size: 22px;
-}
 
 button {
   border: none;
@@ -105,9 +102,6 @@ button:hover {
   .wrapper {
     width: 70%;
     height: 10%;
-  }
-  .result {
-    font-size: 20px;
   }
 }
 
