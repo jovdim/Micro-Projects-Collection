@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="./styles.css">
+     <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="title">Unit Converter</h1>
+        <h2 class="subtitle">Select Conversion Category</h2>
+        <select id="conversionCategory" class="select-category">
+            <option value="">- Select -</option>
+            <option value="temperature">Temperature</option>
+            <option value="area">Area</option>
+            <option value="weight">Weight</option>
+            <option value="length">Length</option>
+            <option value="time">Time</option>
+        </select>
+
+        <div class="conversion-container" id="conversionForms">
+            <!-- Temperature Converter -->
+            <div class="conversion" id="temperature" style="display: none;">
+                <h3>Temperature Converter</h3>
+                <input type="number" id="temperatureInput" class="input" placeholder="Enter value" />
+                <select id="fromTemperatureUnit" class="unit-select">
+                    <option value="celsius">Celsius</option>
+                    <option value="kelvin">Kelvin</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                </select>
+                <span class="arrow">→</span>
+                <select id="toTemperatureUnit" class="unit-select">
+                    <option value="celsius">Celsius</option>
+                    <option value="kelvin">Kelvin</option>
+                    <option value="fahrenheit">Fahrenheit</option>
+                </select>
+                <button id="temperatureConvertBtn">Convert</button>
+                <div class="result" id="temperatureResult">Result will be displayed here</div>
+            </div>
+
+            <!-- Area Converter -->
+            <div class="conversion" id="area" style="display: none;">
+                <h3>Area Converter</h3>
+                <input type="number" id="areaInput" class="input" placeholder="Enter value" />
+                <select id="fromAreaUnit" class="unit-select">
+                    <option value="sqMeter">Square Meter</option>
+                    <option value="sqKilometer">Square Kilometer</option>
+                    <option value="sqFoot">Square Foot</option>
+                    <option value="acre">Acre</option>
+                </select>
+                <span class="arrow">→</span>
+                <select id="toAreaUnit" class="unit-select">
+                    <option value="sqMeter">Square Meter</option>
+                    <option value="sqKilometer">Square Kilometer</option>
+                    <option value="sqFoot">Square Foot</option>
+                    <option value="acre">Acre</option>
+                </select>
+                <button id="areaConvertBtn">Convert</button>
+                <div class="result" id="areaResult">Result will be displayed here</div>
+            </div>
+
+            <!-- Weight Converter -->
+            <div class="conversion" id="weight" style="display: none;">
+                <h3>Weight Converter</h3>
+                <input type="number" id="weightInput" class="input" placeholder="Enter value" />
+                <select id="fromWeightUnit" class="unit-select">
+                    <option value="gram">Gram</option>
+                    <option value="kilogram">Kilogram</option>
+                    <option value="pound">Pound</option>
+                    <option value="ounce">Ounce</option>
+                </select>
+                <span class="arrow">→</span>
+                <select id="toWeightUnit" class="unit-select">
+                    <option value="gram">Gram</option>
+                    <option value="kilogram">Kilogram</option>
+                    <option value="pound">Pound</option>
+                    <option value="ounce">Ounce</option>
+                </select>
+                <button id="weightConvertBtn">Convert</button>
+                <div class="result" id="weightResult">Result will be displayed here</div>
+            </div>
+
+            <!-- Length Converter -->
+            <div class="conversion" id="length" style="display: none;">
+                <h3>Length Converter</h3>
+                <input type="number" id="lengthInput" class="input" placeholder="Enter value" />
+                <select id="fromLengthUnit" class="unit-select">
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="mile">Mile</option>
+                    <option value="yard">Yard</option>
+                </select>
+                <span class="arrow">→</span>
+                <select id="toLengthUnit" class="unit-select">
+                    <option value="meter">Meter</option>
+                    <option value="kilometer">Kilometer</option>
+                    <option value="mile">Mile</option>
+                    <option value="yard">Yard</option>
+                </select>
+                <button id="lengthConvertBtn">Convert</button>
+                <div class="result" id="lengthResult">Result will be displayed here</div>
+            </div>
+
+            <!-- Time Converter -->
+            <div class="conversion" id="time" style="display: none;">
+                <h3>Time Converter</h3>
+                <input type="number" id="timeInput" class="input" placeholder="Enter value" />
+                <select id="fromTimeUnit" class="unit-select">
+                    <option value="second">Second</option>
+                    <option value="minute">Minute</option>
+                    <option value="hour">Hour</option>
+                    <option value="day">Day</option>
+                </select>
+                <span class="arrow">→</span>
+                <select id="toTimeUnit" class="unit-select">
+                    <option value="second">Second</option>
+                    <option value="minute">Minute</option>
+                    <option value="hour">Hour</option>
+                    <option value="day">Day</option>
+                </select>
+                <button id="timeConvertBtn">Convert</button>
+                <div class="result" id="timeResult">Result will be displayed here</div>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
