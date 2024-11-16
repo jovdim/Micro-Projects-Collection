@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>Advanced Password Generator</h1>
+      <div class="settings">
+        <div class="range-slider">
+          <label for="password-length"
+            >Password Length: <span id="length-display">16</span></label
+          >
+          <input
+            type="range"
+            id="password-length"
+            min="8"
+            max="64"
+            value="16"
+          />
+        </div>
+        <div class="checkbox-group">
+          <label
+            ><input type="checkbox" id="uppercase" checked /> Include Uppercase
+            (A-Z)</label
+          >
+          <label
+            ><input type="checkbox" id="lowercase" checked /> Include Lowercase
+            (a-z)</label
+          >
+          <label
+            ><input type="checkbox" id="numbers" checked /> Include Numbers
+            (0-9)</label
+          >
+          <label
+            ><input type="checkbox" id="symbols" checked /> Include Symbols (@,
+            #, etc.)</label
+          >
+        </div>
+      </div>
+      <div class="password-output">
+        <input
+          type="text"
+          id="generated-password"
+          readonly
+          placeholder="Your password will appear here..."
+        />
+        <button id="copy-button">Copy</button>
+      </div>
+      <div class="strength-indicator">
+        <span id="strength-label">Strength: <strong>Weak</strong></span>
+        <div class="strength-bar"><div></div></div>
+      </div>
+      <button id="generate-button">Generate Password</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
