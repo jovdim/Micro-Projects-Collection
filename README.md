@@ -15,6 +15,7 @@ Feel free to explore, adapt, and contribute to any of these projects!
 | 05   | [Stopwatch](https://github.com/jovdim/Micro-Projects-Collection/tree/main/stopwatch)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/dfaf078687f4bc314ce0fef478ce948045a79d62/stopwatch/preview-image.png) |
 | 06   | [Rock Paper Scissors Game](https://github.com/jovdim/Micro-Projects-Collection/tree/2e595a1623f6c0144a6f43697b379e1a532f4df2/rock-paper-scissors-game)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/2e595a1623f6c0144a6f43697b379e1a532f4df2/rock-paper-scissors-game/preview-image.png) |
 | 07   | [Password Generator](https://github.com/jovdim/Micro-Projects-Collection/tree/658b7c1fbbd86a69744b65830eb17d4e64a8bd79/password-generator)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/658b7c1fbbd86a69744b65830eb17d4e64a8bd79/password-generator/preview-image.png) |
+| 08   | [BMI Calculator](https://github.com/jovdim/Micro-Projects-Collection/tree/61603501f4862094a8b698008babcd27cf668a03/bmi-calculator)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/0b2e82eb485a75de1eb54ee3c4523fedb3e6bf60/bmi-calculator/preview-image.png) |
 
 ---
 We welcome contributions to the **Micro Projects** collection! If you'd like to contribute, please check out our [contributing guidelines](https://github.com/jovdim/Micro-Projects-Collection/blob/main/CONTRIBUTING.md) to get started.
