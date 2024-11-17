@@ -18,6 +18,7 @@ Feel free to explore, adapt, and contribute to any of these projects!
 | 08   | [BMI Calculator](https://github.com/jovdim/Micro-Projects-Collection/tree/61603501f4862094a8b698008babcd27cf668a03/bmi-calculator)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/0b2e82eb485a75de1eb54ee3c4523fedb3e6bf60/bmi-calculator/preview-image.png) |
 | 09   | [Expense Tracker](https://github.com/jovdim/Micro-Projects-Collection/tree/b9df81f0793ee69f869aaf0a7d6dfbc85411bea2/expense-tracker)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/b9df81f0793ee69f869aaf0a7d6dfbc85411bea2/expense-tracker/preview-image.png) |
 | 10   | [Unit converter](https://github.com/jovdim/Micro-Projects-Collection/tree/fa55c2bd72052e2f287547d9c2dbe8feb1dc692d/unit-converter)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/fa55c2bd72052e2f287547d9c2dbe8feb1dc692d/unit-converter/preview-image.png) |
+| 11   | [Tip Calculator](https://github.com/jovdim/Micro-Projects-Collection/tree/4a9a12ba39a46ba8a8c4ff2c85682ad19292e238/tip-calculator)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/4a9a12ba39a46ba8a8c4ff2c85682ad19292e238/tip-calculator/preview-image.png) |
 
 ---
 We welcome contributions to the **Micro Projects** collection! If you'd like to contribute, please check out our [contributing guidelines](https://github.com/jovdim/Micro-Projects-Collection/blob/main/CONTRIBUTING.md) to get started.
