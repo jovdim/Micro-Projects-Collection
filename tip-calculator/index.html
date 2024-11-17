@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Tip Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+</head>
+<body>
+  <div class="calculator-container">
+    <h1 class="title">💸 Tip Calculator</h1>
+
+    <div class="input-group">
+      <label for="bill"><i class="fas fa-money-bill-wave"></i> Bill Amount</label>
+      <input type="number" id="bill" placeholder="Enter bill amount" oninput="updateTip()" />
+    </div>
+
+    <div class="input-group">
+      <label for="tip"><i class="fas fa-percentage"></i> Tip Percentage</label>
+      <input type="number" id="tip" placeholder="Enter tip %" oninput="updateTip()" />
+    </div>
+
+    <div class="input-group">
+      <label for="people"><i class="fas fa-user-friends"></i> Number of People</label>
+      <input type="number" id="people" placeholder="How many people?" oninput="updateTip()" />
+    </div>
+
+    <button class="calculate-btn" onclick="resetForm()">Reset</button>
+
+    <div class="result">
+      <p>Total Tip: <span id="total-tip">$0.00</span></p>
+      <p>Total Amount: <span id="total-amount">$0.00</span></p>
+      <p>Amount per Person: <span id="per-person">$0.00</span></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
