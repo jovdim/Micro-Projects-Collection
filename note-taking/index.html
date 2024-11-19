@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern Notes App</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+  </head>
+  <body>
+    <div class="app-container">
+      <header class="app-header">
+        <h1>NotesApp</h1>
+        <input type="text" id="searchBar" placeholder="Search notes..." />
+      </header>
+
+      <main>
+        <section class="note-input">
+          <textarea
+            id="noteContent"
+            placeholder="Write your note here..."
+          ></textarea>
+          <input type="text" id="noteTag" placeholder="Add a tag (optional)" />
+          <div class="action-css">
+            <select id="noteColor">
+              <option value="#ffffff">White</option>
+              <option value="#ffcccc">Soft Red</option>
+              <option value="#cce5ff">Soft Blue</option>
+              <option value="#d4edda">Soft Green</option>
+              <option value="#fff3cd">Soft Yellow</option>
+            </select>
+            <button id="addNoteButton">Add Note</button>
+          </div>
+        </section>
+
+        <section id="notesContainer">
+          <!-- Notes will be dynamically added here -->
+        </section>
+      </main>
+
+      <footer class="app-footer">
+        <p>NotesApp &copy; 2024</p>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

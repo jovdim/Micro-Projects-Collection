@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  color: #333;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.app-header {
+  background: linear-gradient(to right, #4caf50, #3e8e41);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.app-header #searchBar {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  width: 50%;
+}
+
+.note-input {
+  background-color: #ffffff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.note-input textarea {
+  height: 100px;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  resize: none;
+}
+
+.note-input input {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.note-input input,
+.note-input select,
+.note-input button {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.note-input button {
+  background: linear-gradient(to right, #4caf50, #45a049);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  padding: 12px 16px;
+  transition: background 0.3s ease;
+}
+
+.note-input button:hover {
+  background: linear-gradient(to right, #3e8e41, #357a38);
+}
+
+#notesContainer {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  overflow-y: auto;
+}
+
+.note {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: calc(33.333% - 1rem);
+  position: relative;
+  transition: transform 0.2s;
+}
+
+.note:hover {
+  transform: scale(1.05);
+}
+
+.note .note-tag {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #888;
+  margin-top: 0.5rem;
+}
+
+.note .delete-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  color: #f44336;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.app-footer {
+  text-align: center;
+  padding: 0.2rem;
+  background: linear-gradient(to right, #4caf50, #3e8e41);
+  color: white;
+}
