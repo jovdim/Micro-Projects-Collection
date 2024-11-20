@@ -22,6 +22,8 @@ Feel free to explore, adapt, and contribute to any of these projects!
 | 12   | [Number Guessing Game](https://github.com/jovdim/Micro-Projects-Collection/tree/3ac4fbaf908fad381487c44c4194ef2c08bf44f8/number-guessing-game)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/3ac4fbaf908fad381487c44c4194ef2c08bf44f8/number-guessing-game/preview-image.png) |
 | 13   | [Tic-Tac-Toe Game](https://github.com/jovdim/Micro-Projects-Collection/tree/e2c7eb405afe0ccf3673cdaf7c2ee8baa4f55971/tic-tac-toe-game)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/e2c7eb405afe0ccf3673cdaf7c2ee8baa4f55971/tic-tac-toe-game/preview-image.png) |
 | 14   | [Note Taking App](https://github.com/jovdim/Micro-Projects-Collection/tree/e2c7eb405afe0ccf3673cdaf7c2ee8baa4f55971/note-taking)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/e2c7eb405afe0ccf3673cdaf7c2ee8baa4f55971/note-taking/preview-image.png) |
+| 15   | [Quiz App](https://github.com/jovdim/Micro-Projects-Collection/tree/d6651f905f84924eb81bd1440c725d4fe18738ff/quiz-app)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/d6651f905f84924eb81bd1440c725d4fe18738ff/quiz-app/preview-image.png) |
+
 
 ---
 We welcome contributions to the **Micro Projects** collection! If you'd like to contribute, please check out our [contributing guidelines](https://github.com/jovdim/Micro-Projects-Collection/blob/main/CONTRIBUTING.md) to get started.
