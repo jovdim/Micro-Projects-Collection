@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+  <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+</head>
+<body>
+    <div id="app">
+        <!-- Quiz Container -->
+        <div class="quiz-container">
+            <header class="quiz-header">
+                <h1>Quiz App</h1>
+                <button id="theme-toggle" class="theme-btn">🌙</button>
+            </header>
+
+            <!-- Quiz Intro -->
+            <div class="quiz-intro" id="quiz-intro">
+                <h2>Welcome to the Quiz</h2>
+                <p>Choose a category and start!</p>
+                <div class="category-selector">
+                    <button class="category-btn" data-category="general">General Knowledge</button>
+                    <button class="category-btn" data-category="math">Math</button>
+                    <button class="category-btn" data-category="science">Science</button>
+                </div>
+            </div>
+
+            <!-- Quiz Area -->
+            <div class="quiz-area hidden" id="quiz-area">
+                <div class="progress-container">
+                    <div class="progress-bar" id="progress-bar"></div>
+                    <div class="quiz-timer" id="quiz-timer">10</div>
+                </div>
+                <div class="question-card">
+                    <div class="question" id="question">Loading...</div>
+                    <div class="answers" id="answers"></div>
+                </div>
+            </div>
+
+            <!-- Quiz End -->
+            <div class="quiz-end hidden" id="quiz-end">
+                <h2>Quiz Complete!</h2>
+                <p id="score">You scored: 0%</p>
+                <button id="restart-btn" class="btn">Restart</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
