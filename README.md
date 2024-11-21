@@ -27,3 +27,4 @@ Feel free to explore, adapt, and contribute to any of these projects!
 
 ---
 We welcome contributions to the **Micro Projects** collection! If you'd like to contribute, please check out our [contributing guidelines](https://github.com/jovdim/Micro-Projects-Collection/blob/main/CONTRIBUTING.md) to get started.
+

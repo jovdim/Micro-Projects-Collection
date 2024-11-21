@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markdown Previewer</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Include marked.js for parsing Markdown -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Markdown Previewer</h1>
+        <p>Write markdown on the left, see the preview on the right!</p>
+      </header>
+      <div class="editor-tools">
+        <button id="clear-button">Clear</button>
+        <button id="toggle-preview">Hide Preview</button>
+        <button id="export-button">Export to .md</button>
+        <button id="dark-mode-toggle">Switch to Dark Mode</button>
+
+        <span id="char-count">0 characters</span>
+      </div>
+      <div class="editor-container">
+        <textarea
+          id="markdown-input"
+          placeholder="Start writing your markdown here..."
+        ></textarea>
+        <div class="preview" id="markdown-preview"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
