@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Advanced Pomodoro Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Pomodoro Timer</h1>
+      <button id="theme-toggle">🌙</button>
+    </header>
+    
+    <main>
+      <div class="timer">
+        <svg>
+          <circle cx="100" cy="100" r="90"></circle>
+          <circle cx="100" cy="100" r="90" id="progress"></circle>
+        </svg>
+        <div class="time-display">
+          <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+      </div>
+
+      <div class="settings">
+        <h2>Settings</h2>
+        <label>
+          Work Duration:
+          <input type="number" id="work-duration" value="25" min="1">
+        </label>
+        <label>
+          Break Duration:
+          <input type="number" id="break-duration" value="5" min="1">
+        </label>
+        <label>
+          Long Break Duration:
+          <input type="number" id="long-break-duration" value="15" min="1">
+        </label>
+        <label>
+          Pomodoros Before Long Break:
+          <input type="number" id="pomodoro-count" value="4" min="1">
+        </label>
+        <button id="apply-settings">Apply Settings</button>
+      </div>
+    </main>
+
+    <footer>
+      <p>Focus. Achieve. Repeat.</p>
+    </footer>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
