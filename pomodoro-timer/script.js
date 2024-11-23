@@ -1,3 +1,4 @@
+//If you find this useful, please star the repo and follow me on github: https://github.com/jovdim/Micro-Projects-Collection
 let timerInterval;
 let workDuration = 25 * 60;
 let breakDuration = 5 * 60;
