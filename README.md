@@ -24,6 +24,7 @@ Feel free to explore, adapt, and contribute to any of these projects!
 | 14   | [Note Taking App](https://github.com/jovdim/Micro-Projects-Collection/tree/e2c7eb405afe0ccf3673cdaf7c2ee8baa4f55971/note-taking)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/e2c7eb405afe0ccf3673cdaf7c2ee8baa4f55971/note-taking/preview-image.png) |
 | 15   | [Quiz App](https://github.com/jovdim/Micro-Projects-Collection/tree/d6651f905f84924eb81bd1440c725d4fe18738ff/quiz-app)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/d6651f905f84924eb81bd1440c725d4fe18738ff/quiz-app/preview-image.png) |
 | 16   | [Markdown Previewer](https://github.com/jovdim/Micro-Projects-Collection/tree/583c158508719a39bd083b6846df3561e912ef59/markdown-previewer)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/583c158508719a39bd083b6846df3561e912ef59/markdown-previewer/preview-image.png) |
+| 16   | [Pomodoro Timer](https://github.com/jovdim/Micro-Projects-Collection/tree/cb8139507aaee4839fa1f3bd74179db8ccafa83e/pomodoro-timer)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/cb8139507aaee4839fa1f3bd74179db8ccafa83e/pomodoro-timer/preview-image.png) |
 
 
 ---
