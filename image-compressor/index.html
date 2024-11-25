@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Compressor</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+</head>
+<body>
+  <header>
+    <h1>Image Compressor</h1>
+  </header>
+
+  <main>
+    <section class="upload-section">
+      <div class="upload-area" id="upload-area">
+        <p>Drag & Drop your image here, or</p>
+        <input type="file" id="file-input" accept="image/*">
+        <label for="file-input">Browse Files</label>
+      </div>
+    </section>
+
+    <section class="compress-section hidden" id="compress-section">
+      <div class="image-preview">
+        <h2>Preview</h2>
+        <img id="preview-image" alt="Preview">
+      </div>
+      <div class="settings">
+        <label for="quality">Compression Quality:</label>
+        <input type="range" id="quality" min="10" max="100" value="80">
+        <span id="quality-value">80%</span>
+
+        <label for="resize-toggle">Resize Image:</label>
+        <input type="checkbox" id="resize-toggle">
+        <input type="number" id="resize-width" placeholder="Width (px)" disabled>
+      </div>
+      <div class="feedback" id="feedback"></div>
+      <div class="buttons">
+        <button id="compress-btn">Compress Image</button>
+        <a id="download-btn" class="hidden">Download</a>
+      </div>
+    </section>
+  </main>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
