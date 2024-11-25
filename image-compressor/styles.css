@@ -1,0 +1,135 @@
+:root {
+    --primary-bg: rgba(255, 255, 255, 0.9);
+    --secondary-bg: rgba(0, 0, 0, 0.5);
+    --primary-color: #333;
+    --accent-color: #007BFF;
+    --border-radius: 12px;
+    --transition: 0.3s ease;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #bfc079, #a5eddf);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: white;
+    opacity: 0.9;
+  }
+  
+  main {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .upload-section,
+  .compress-section {
+    background: var(--primary-bg);
+    border-radius: var(--border-radius);
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .upload-area {
+    border: 2px dashed var(--accent-color);
+    padding: 30px;
+    border-radius: var(--border-radius);
+    position: relative;
+  }
+  
+  .upload-area:hover {
+    background: rgba(0, 0, 0, 0.05);
+  }
+  
+  .upload-area p {
+    margin-bottom: 10px;
+  }
+  
+  .upload-area label {
+    color: var(--accent-color);
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  #file-input {
+    display: none;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 10px;
+    border-radius: var(--border-radius);
+  }
+  
+  .settings {
+    margin-top: 20px;
+  }
+  
+  .settings label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #quality {
+    width: 100%;
+  }
+  
+  #quality-value {
+    margin-top: 5px;
+    display: inline-block;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button,
+  a {
+    padding: 10px 15px;
+    margin: 10px 5px;
+    border: none;
+    background: var(--accent-color);
+    color: white;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  
+  button:hover,
+  a:hover {
+    background: #0056b3;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  
