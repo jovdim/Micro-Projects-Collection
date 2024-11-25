@@ -26,6 +26,7 @@ Feel free to explore, adapt, and contribute to any of these projects!
 | 16   | [Markdown Previewer](https://github.com/jovdim/Micro-Projects-Collection/tree/583c158508719a39bd083b6846df3561e912ef59/markdown-previewer)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/583c158508719a39bd083b6846df3561e912ef59/markdown-previewer/preview-image.png) |
 | 17   | [Pomodoro Timer](https://github.com/jovdim/Micro-Projects-Collection/tree/cb8139507aaee4839fa1f3bd74179db8ccafa83e/pomodoro-timer)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/cb8139507aaee4839fa1f3bd74179db8ccafa83e/pomodoro-timer/preview-image.png) |
 | 18   | [Gradient/Box-shadow Generator](https://github.com/jovdim/Micro-Projects-Collection/tree/da7316db109f33aed5ece008521165338ce8ec92/css-generator)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/da7316db109f33aed5ece008521165338ce8ec92/css-generator/preview-image.png) |
+| 19   | [Image Compressor](https://github.com/jovdim/Micro-Projects-Collection/tree/469e40722d6f88a40d805601e1cd8eeaae48aeb2/image-compressor)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/469e40722d6f88a40d805601e1cd8eeaae48aeb2/image-compressor/image-preview.png) |
 
 
 
