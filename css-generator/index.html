@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>CSS Generator</h1>
+  </header>
+
+  <main>
+    <section class="generator">
+      <h2>Gradient Generator</h2>
+      <div class="control-group">
+        <label for="gradient-type">Type:</label>
+        <select id="gradient-type">
+          <option value="linear">Linear</option>
+          <option value="radial">Radial</option>
+        </select>
+      </div>
+      <div class="control-group">
+        <label for="color1">Color 1:</label>
+        <input type="color" id="color1" value="#ff0000">
+      </div>
+      <div class="control-group">
+        <label for="color2">Color 2:</label>
+        <input type="color" id="color2" value="#0000ff">
+      </div>
+      <div class="control-group">
+        <label for="angle">Angle:</label>
+        <input type="range" id="angle" min="0" max="360" value="90">
+        <span id="angle-value">90°</span>
+      </div>
+      <div class="preview" id="gradient-preview"></div>
+      <div class="code">
+        <textarea id="gradient-code" readonly></textarea>
+        <button id="copy-gradient-code">Copy Code</button>
+      </div>
+    </section>
+
+    <section class="generator">
+      <h2>Box Shadow Generator</h2>
+      <div class="control-group">
+        <label for="h-offset">Horizontal Offset:</label>
+        <input type="range" id="h-offset" min="-50" max="50" value="0">
+      </div>
+      <div class="control-group">
+        <label for="v-offset">Vertical Offset:</label>
+        <input type="range" id="v-offset" min="-50" max="50" value="0">
+      </div>
+      <div class="control-group">
+        <label for="blur-radius">Blur Radius:</label>
+        <input type="range" id="blur-radius" min="0" max="100" value="10">
+      </div>
+      <div class="control-group">
+        <label for="spread-radius">Spread Radius:</label>
+        <input type="range" id="spread-radius" min="-50" max="50" value="0">
+      </div>
+      <div class="control-group">
+        <label for="shadow-color">Shadow Color:</label>
+        <input type="color" id="shadow-color" value="#000000">
+      </div>
+      <div class="preview" id="shadow-preview"></div>
+      <div class="code">
+        <textarea id="shadow-code" readonly></textarea>
+        <button id="copy-shadow-code">Copy Code</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

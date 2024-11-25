@@ -1,0 +1,119 @@
+:root {
+    --primary-bg: rgba(255, 255, 255, 0.8);
+    --primary-color: #333;
+    --secondary-color: #007BFF;
+    --border-radius: 12px;
+    --transition: 0.3s ease;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #5ecacf, #6b68b4);
+    color: var(--primary-color);
+    padding: 20px;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    color: white;
+    opacity: 0.9;
+  }
+  
+  main {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: start; 
+    gap: 14px;
+  }
+  
+  .generator {
+    width: 600px;
+    background: var(--primary-bg);
+    border-radius: var(--border-radius);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .generator h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .control-group {
+    margin-bottom: 10px;
+  }
+  
+  .control-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .control-group input,
+  .control-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: var(--border-radius);
+    border: 1px solid #ccc;
+    transition: var(--transition);
+  }
+  
+  .control-group input:focus,
+  .control-group select:focus {
+    outline: none;
+    border-color: var(--1ondary-color);
+  }
+  
+  .preview {
+    height: 100px;
+    margin-top: 20px;
+    border-radius: var(--border-radius);
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .code {
+    margin-top: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: var(--border-radius);
+    padding: 10px;
+    resize: none;
+  }
+  
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: var(--secondary-color);
+    color: white;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
