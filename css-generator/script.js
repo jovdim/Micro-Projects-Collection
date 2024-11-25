@@ -1,4 +1,6 @@
 
+//If you find this useful, please star the repo and follow me on github: https://github.com/jovdim/Micro-Projects-Collection 
+
 const gradientType = document.getElementById("gradient-type");
 const color1 = document.getElementById("color1");
 const color2 = document.getElementById("color2");
