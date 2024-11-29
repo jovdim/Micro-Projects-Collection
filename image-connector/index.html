@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Connector</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Image Connector</h1>
+        <p>Upload, preview, and combine images effortlessly.</p>
+      </header>
+
+      <main>
+        <div class="upload-section">
+          <label for="imageUpload" class="upload-label">Upload Images</label>
+          <input type="file" id="imageUpload" multiple accept="image/*" />
+        </div>
+
+        <div class="options">
+          <h2>Preview Options</h2>
+          <label>
+            <input type="radio" name="layout" value="horizontal" checked />
+            Horizontal
+          </label>
+          <label>
+            <input type="radio" name="layout" value="vertical" />
+            Vertical
+          </label>
+        </div>
+
+        <div class="preview-container">
+          <h2>Preview</h2>
+          <canvas id="previewCanvas"></canvas>
+        </div>
+
+        <button id="downloadButton" class="download-btn" disabled>
+          Download Combined Image
+        </button>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
