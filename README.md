@@ -29,6 +29,7 @@ Feel free to explore, adapt, and contribute to any of these projects!
 | 19   | [Image Compressor](https://github.com/jovdim/Micro-Projects-Collection/tree/469e40722d6f88a40d805601e1cd8eeaae48aeb2/image-compressor)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/469e40722d6f88a40d805601e1cd8eeaae48aeb2/image-compressor/image-preview.png) |
 | 20   | [Image Connector](https://github.com/jovdim/Micro-Projects-Collection/tree/0fa990e4f8030c5785efbeaa9237072ab67ce402/image-connector)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/0fa990e4f8030c5785efbeaa9237072ab67ce402/image-connector/preview-image.png) |
 | 21   | [Currency Converter](https://github.com/jovdim/Micro-Projects-Collection/tree/72de0cbaf14cfc12ba8b1069f6c181f2ad826271/currency-converter)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/72de0cbaf14cfc12ba8b1069f6c181f2ad826271/currency-converter/preview-image.png) |
+| 22   | [Fancy Age Calculator](https://github.com/jovdim/Micro-Projects-Collection/tree/e58d7e97d0b79b1795dcb36df1e5370f3ba112b3/age-calculator)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/e58d7e97d0b79b1795dcb36df1e5370f3ba112b3/age-calculator/preview-image.png) |
 
 
 
