@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drawing Canvas</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="canvas-container">
+      <h1>Drawing Canvas</h1>
+
+      <div class="controls">
+        <label for="colorPicker">Brush Color:</label>
+        <input type="color" id="colorPicker" value="#000000" />
+
+        <label for="brushSize">Brush Size:</label>
+        <input type="range" id="brushSize" min="1" max="20" value="5" />
+
+        <button id="clearCanvas">Clear Canvas</button>
+
+        <button id="emojiButton">Add Emoji</button>
+      </div>
+      <canvas id="drawingCanvas"></canvas>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
