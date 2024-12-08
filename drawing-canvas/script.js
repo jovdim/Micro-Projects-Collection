@@ -1,3 +1,5 @@
+//If you find this useful, please star the repo and follow me on github: https://github.com/jovdim/Micro-Projects-Collection
+
 const canvas = document.getElementById("drawingCanvas");
 const ctx = canvas.getContext("2d");
 
