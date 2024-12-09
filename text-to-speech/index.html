@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text-to-Speech</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- If you find this project useful, please give it a star on GitHub: https://github.com/jovdim/Micro-Projects-Collection -->
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎙️ Text-to-Speech Converter</h1>
+      <textarea id="textInput" placeholder="Type something here..."></textarea>
+      <div class="controls">
+        <select id="voiceSelect">
+          <option value="">Select Voice</option>
+        </select>
+        <input type="range" id="rate" min="0.5" max="2" value="1" step="0.1" />
+        <label for="rate">Rate: <span id="rateValue">1</span> 🔄</label>
+      </div>
+      <button id="speakButton">🗣️ Speak</button>
+      <button id="stopButton">❌ Stop</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
