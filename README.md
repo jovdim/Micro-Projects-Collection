@@ -31,6 +31,7 @@ Feel free to explore, adapt, and contribute to any of these projects!
 | 21   | [Currency Converter](https://github.com/jovdim/Micro-Projects-Collection/tree/72de0cbaf14cfc12ba8b1069f6c181f2ad826271/currency-converter)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/72de0cbaf14cfc12ba8b1069f6c181f2ad826271/currency-converter/preview-image.png) |
 | 22   | [Fancy Age Calculator](https://github.com/jovdim/Micro-Projects-Collection/tree/e58d7e97d0b79b1795dcb36df1e5370f3ba112b3/age-calculator)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/e58d7e97d0b79b1795dcb36df1e5370f3ba112b3/age-calculator/preview-image.png) |
 | 23   | [Drawing Canvas](https://github.com/jovdim/Micro-Projects-Collection/tree/98f43049f20513fce4f0053e20f6d888673607c3/drawing-canvas)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/98f43049f20513fce4f0053e20f6d888673607c3/drawing-canvas/preview-image.png) |
+| 24   | [Text to Speech Converter](https://github.com/jovdim/Micro-Projects-Collection/tree/cd7ce17deaca81e67ea8782511c089920329ed86/text-to-speech)    | [Image](https://github.com/jovdim/Micro-Projects-Collection/blob/cd7ce17deaca81e67ea8782511c089920329ed86/text-to-speech/preview-image.png) |
 
 
 
