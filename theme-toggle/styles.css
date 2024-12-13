@@ -1,0 +1,66 @@
+/* Base styles */
+:root {
+  --primary-color: #4a4a4a;
+  --secondary-color: #eaeaea;
+  --bg-gradient: linear-gradient(135deg, #c6e3dd 0%, #dfe9f3 100%);
+  --text-color: #333;
+  --transition-speed: 0.3s;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--bg-gradient);
+  color: var(--text-color);
+  transition: background var(--transition-speed), color var(--transition-speed);
+}
+
+.container {
+  padding: 2rem;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.toggle-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  transition: background var(--transition-speed), color var(--transition-speed);
+}
+
+.placeholder {
+  margin: 2rem auto;
+  padding: 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 700px;
+}
+
+/* Dark mode theme */
+body.dark-mode {
+  --primary-color: #eaeaea;
+  --secondary-color: #4a4a4a;
+  --bg-gradient: linear-gradient(135deg, #141e30 0%, #243b55 100%);
+  --text-color: #ddd;
+}
+
+body.dark-mode .toggle-btn {
+  background: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+/* Additional placeholder styles */
+body.dark-mode .placeholder {
+  background: rgba(30, 30, 30, 0.8);
+  border-color: var(--secondary-color);
+  color: var(--text-color);
+}
